@@ -10,11 +10,11 @@
                 "content-type": "application/json"
             },
             "delete_anime": {
-                "uri": "/anime/delete/(id to add)",
+                "uri": "/anime/delete/(id to delete)",
                 "content-type": "application/json"
             },
             "update_anime": {
-                "uri": "/anime/update/(id to add)",
+                "uri": "/anime/update/(id to update)",
                 "content-type": "application/json"
             }
         }
