@@ -1,9 +1,11 @@
 const express = require('express');
 const app = express();
 const router = require('./src/router.js');
+const cors = require('cors')
 
 port = 3001;
 app.use(express.json());
+app.use(cors());
 
 
 app.get('/', (req,res)=>{
@@ -17,5 +19,3 @@ app.get("*", function (req, res) {
 
 
 app.listen(port,()=> console.log('server listen on port ' + port));
-
-module.exports = app;
